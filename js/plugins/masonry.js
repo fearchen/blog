@@ -2,10 +2,10 @@ const initializedContainers = new WeakSet();
 
 const getRoot = () => {
   if (typeof window === "undefined") {
-    return "/";
+    return "/blog/";
   }
-  const root = window.config?.root || "/";
-  return root.endsWith("/") ? root : `${root}/`;
+  const root = window.config?.root || "/blog/";
+  return root.endsWith("/blog/") ? root : `${root}/`;
 };
 
 const getBlankPlaceholderSrc = () =>

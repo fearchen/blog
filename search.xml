@@ -5773,7 +5773,7 @@ npm install
 
 然后在hexo.blog目录下执行”hexo deploy”
 
-部署成功，https://fearchen.github.io/就能访问了
+部署成功，https://fearchen.github.io就能访问了
 
 hexo new “MyBlog” 新建一篇文章
 
